@@ -25,6 +25,6 @@ function addButtonClicked(){
     listItem.appendChild(deleteButton)
 
     unorderedList.appendChild(listItem)
-    taskInput.value = " "
+    taskInput.value = ""
     console.log(todoItem)
 }
